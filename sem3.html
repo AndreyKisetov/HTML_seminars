@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+        let number = 158+2
+        alert(number)
+    
+        let age = parseInt(prompt("Введите число"));
+
+        switch (age) {
+        case 18:
+        alert("Отлично!");
+        break;
+        case 10:
+        alert("Not enough");
+        break
+        case 30:
+        alert("Go to sleep");
+        break;
+        default:
+        alert("Мы не знаем, что Вам делать :)")
+        }
+    </script>
+
+    <script>
+    let UserName = prompt("введите имя");
+    alert(`Привет,${UserName}`);
+    </script>
+
+    <script>
+
+        let userName = prompt("Введите имя", "Имя", "Фамилия");
+        function showName() {
+        alert(`Привет, ${userName}`);
+        }
+        showName();
+
+    </script>
+
+
+</body>
+</html>
